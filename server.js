@@ -7,7 +7,7 @@ const passport = require('passport');
 const port = parseInt(process.env.PORT, 10) || 5100;
 const db = require('./models');
 //Passport config
-// require('./config/passport')(passport);
+require('./config/passport')(passport);
 
 const app = express();
 app.use(logger('dev'));
