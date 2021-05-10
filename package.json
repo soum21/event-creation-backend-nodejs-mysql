@@ -12,7 +12,7 @@
   "dependencies": {
     "alasql": "^0.4.11",
     "bcrypt": "^3.0.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "moment": "^2.24.0",
     "passport": "^0.4.0",
     "passport-local": "^1.0.0",
